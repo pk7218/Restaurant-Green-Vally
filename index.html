@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/960_12_col.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <script src="ajax-scripts/jquery.min.js"></script>
+
+
+    <title>Document</title>
+   
+
+
+    </script>
+</head>
+
+<body>
+    <div class="container_12">
+        <header>
+            <div class="grid_4 ">
+                <div class="logo">
+                    <img src="logo1.png" width="200px">
+                </div>
+            </div>
+            <div class="grid_8 itemalign">
+                <h1><em>RESTUARANT</em> <br><span class="greenvalley">"Green Valley "</span></h1>---The only thing we
+                love more than food is you.!
+            </div>
+
+
+            <div class="clear"></div>
+        </header>
+        <nav>
+
+            <a href="#">
+                <div class="grid_3 menu-item borderleft-right">Home</div>
+            </a>
+            <a href="services.html">
+                <div class="grid_3 menu-item borderleft-right">Services</div>
+            </a>
+            <a href="about.html"></a>
+            <div class="grid_3 menu-item borderleft-right">About</div></a>
+            <a href="contact.html">
+                <div class="grid_3 menu-item borderleft-right">contact</div>
+            </a>
+            <div class="clear"></div>
+        </nav>
+        <div class="gridbg">
+            <section id="banner" style="height: 600px;">
+
+                <!-- start popup -->
+
+                <!-- Button for popup form of reservation -->
+                <button class="click-here" id="btnbook" onclick="openForm(),openForm1()">book a table</button>
+                <!-- <button class="click-here" id="btnbook">book a table</button> -->
+                <!-- <button class="" onclick="openForm()">Open Form</button> -->
+
+                <div class="form-popup" id="myForm">
+
+                    <form class="form-container">
+                        <h2 style="text-align: left; margin-left: 40px;">Make a Reservation</h2>
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <fieldset style="border-style:1px solid rgb(183, 231, 207)">
+                            <legend>Visit Time & Date</legend>
+                            <input type="time" name="time" required>
+                            <input type="date" name="date" required>
+                        </fieldset>
+                        <select type="text" name="persons" required>
+                            <option>Number of persons</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4+</option>
+                        </select>
+                    
+                        <button type="submit" id="btntable" onclick="accept()" class="btntable">Reserve Table</button>
+                        <button type="button" class="btnclose" onclick="closeForm(),closeForm1()">Close</button>
+                    </form>
+                </div>
+
+                <!--end popup  -->
+
+
+              
+                <div class="grid_12">
+                    <div id="ovalshape" class="ovalshape">
+                        <p class="welcome">Welcome to </p>
+                        <p class="restroname">"Green Valley"</p>
+                        <p style="font-size: 20px; font-style: italic; color:#fff">---fine dining brought home...</p>
+                    </div>
+                    <hr class="hr">
+                </div>
+                <div class="clear"></div>
+
+
+            </section>
+        </div>
+        <section id="reviews" style="background-color: #EFEFEF;">
+            <p class="testimony">Services </p>
+            <p class="title"><b>Catering Services</b></p>
+            <div class="service">
+
+
+                <div class="grid_4">
+                    <img src="cake.svg" class="serviceicn">
+                    <h2>-:Birthday Party:-</h2>
+                    <p class="srvinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo similique ex
+                        nulla voluptates quos iure ut sint quam alias cupiditate error mollitia libero sed ullam at
+                        fugiat, itaque possimus.</p>
+                    <!-- <p style="text-align: left; font-weight: bold;font-size: 1em;cursor: pointer;">Read More<img src="msgicn.png"></p> -->
+                </div>
+                <div class="grid_4"><img src="team.svg" class="serviceicn"><br>
+                    <h2>-:Business Meeting:-</h2>
+                    <p class="srvinfo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid
+                        explicabo sapiente magni placeat natus minus ab a dolor saepe sequi, quae perferendis impedit
+                        libero! Vel perspiciatis excepturi dolore tempore?</p>
+
+                </div>
+                <div class="grid_4"><img src="dinnerparty.png" class="serviceicn"><br>
+                    <h2>-:Wedding Party:-</h2>
+                    <p class="srvinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla error deleniti
+                        expedita, quam aliquid repellat eos fuga autem ducimus aspernatur adipisci, laborum eligendi.
+                        Perspiciatis magni magnam cumque molestiae, ipsam earum.</p>
+
+                </div>
+
+
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section id="reviews">
+            <p class="testimony">testimony </p>
+            <p class="title"><b>Happy Customer</b></p>
+            <div class="reltive">
+                <div class="grid_4"><img src="images/pic1.webp" class="imgsize"><br><br>
+                    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse sunt cum impedit porro repellat,
+                    veniam alias cumque, vel possimus officia doloremque ad?""
+                    <p class="custname">Rose handerson</p>
+                    <p>CUSTOMER</p>
+                </div>
+                <div class="grid_4"><img src="images/pic3.jpg" class="imgsize"><br><br>
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum veritatis commodi quasi quos culpa
+                    quia fuga quae, voluptates at suscipit aliquam? Saepe."
+                    <p class="custname">Appolonia</p>
+                    <p>CUSTOMER</p>
+                </div>
+                <div class="grid_4"><img src="images/pic2.jpg" class="imgsize"><br><br>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora numquam beatae ipsa inventore
+                    totam cum molestiae quis nobis provident. Recusandae, quia officia?"
+                    <p class="custname">Jason McClean</p>
+                    <p>CUSTOMER</p>
+                </div>
+
+
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section id="reviews" style="background-color: #EFEFEF;">
+            <p class="testimony">Blog </p>
+            <p class="title"><b>Recent Post</b></p>
+            <div class="reltive">
+
+
+                <div class="grid_4"><img src="images/blog1.jpg" class="squareimg">
+                    <p style="font-weight: bold; font-size: 1.5em;">Taste the delicious foods in Asia</p>
+                    <p class="readmore">Read More<img src="msgicn.png"></p>
+                </div>
+                <div class="grid_4"><img src="images/blog2.jpg" class="squareimg"><br>
+                    <p style="font-weight: bold; font-size: 1.5em;">Taste the delicious foods in Asia</p>
+                    <p class="readmore">Read More<img src="msgicn.png"></p>
+                </div>
+                <div class="grid_4"><img src="images/blog3.jpg" class="squareimg"><br>
+                    <p style="font-weight: bold; font-size: 1.5em;">Taste the delicious foods in Asia</p>
+                    <p class="readmore">Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="msgicn.png"></p>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section id="reviews" style="background-color: #EFEFEF;">
+            <p class="testimony">Specialities </p>
+            <p class="title"><b>Menu's</b></p>
+            <div class="reltive">
+
+
+                <div class="grid_3"><img src="images/menu1.jpg" class="fourcol">
+
+
+                </div>
+                <div class="grid_3 fourcol">
+                    <p class="protitle">Grilled Beef with potatoes<span class="price">₹129</p>
+                    </span><br><span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+
+                </div>
+                <div class="grid_3"><img src="images/menu2.jpg" class="fourcol"><br>
+
+                </div>
+                <div class="grid_3 fourcol">
+                    <p class="protitle">Grilled Beef with potatoes
+                        <span class="price">₹129</p></span><br>
+                    <span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="reltive">
+
+                <div class="grid_3 fourcol">
+                    <p class="protitle">Grilled Beef with potatoes
+                        <span class="price">₹129</p></span><br>
+                    <span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+                </div>
+                <div class="grid_3"><img src="images/egg.jpg" class="fourcol">
+
+
+                </div>
+                <div class="grid_3 fourcol">
+                    <p class="protitle"">Grilled Beef with potatoes<span class=" price">₹129</p></span>
+                    <br><span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+                </div>
+                <div class="grid_3"><img src="images/kfc.jpg" class="fourcol"><br>
+
+                </div>
+
+
+                <div class="clear"></div>
+            </div>
+            <div class="reltive">
+
+
+                <div class="grid_3"><img src="images/biryani.jpg" class="fourcol">
+
+
+                </div>
+                <div class="grid_3 fourcol">
+                    <p class="protitle">Special dum Biryani<span class="price">₹129</p></span><br>
+                    <span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+
+                </div>
+                <div class="grid_3"><img src="images/fishcurry.jpg" class="fourcol"><br>
+
+                </div>
+                <div class="grid_3 fourcol">
+                    <p class="protitle">Special Fishcurry<span class="price">₹129</p></span><br>
+                    <span class="productinfo"> Meat, Potatoes, Rice, <br>Tomatoe</span><br>
+                    <button type="button">Order now</button>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section id="media">
+            <div class="grid_6"></div>
+            <div class="grid_6"></div>
+            <div class="clear"></div>
+        </section>
+        <!-- <div class="lineheight">reach us</div> -->
+        <footer>
+            <div class="grid_4 alignleft">
+                <h2>Locate us</h2>
+                <address class="alignleft">Lorem, ipsum dolor,
+                    <br>Lorem ipsum dolor sit amet.<br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab obcaecati blanditiis vero quis
+                    molestias quidem non officia explicabo saepe fuga.
+                </address>
+            </div>
+            <div class="grid_4" style="position: relative; top: 5px;">
+                <h2 class="alignleft">&nbsp;&nbsp;Follow us on</h2>
+                <div class="centerleft">
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://in.youtube.com" target="_blank"><i class="fa fa-youtube-play"></i> </a><br>
+
+
+                    <p style="font-size: smaller;">copyright &copy; 2021. All rights reserved.</p>
+                    <p style="font-size: smaller;">Design and developed by Pramod kumbhar.</p>
+                </div>
+            </div>
+            <div class="grid_4">
+                <h2 class="aligncleft"> Opening Hours</h2>
+                <h3 class="alignleft">Monday-friday 8am to 10pm&nbsp;&nbsp;</h3>
+                <h3 class="alignleft">Saturaday-sunday 8am to 2pm</h3>
+            </div>
+            <div class="clear"></div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

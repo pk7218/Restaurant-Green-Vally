@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/960_12_col.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>contact</title>
+    <script src="script.js"></script>
+    <script>
+   function hover()
+   {
+    
+    border:"#D9AD41";
+    background:"#D9AD41";
+
+   }
+
+    </script>
+</head>
+<body>
+    <div class="container_12">
+        <header>
+            <div class="grid_4 ">
+            <div class="logo">
+                <img  src="logo1.png" width="200px" >
+            </div>
+            </div>
+            <div class="grid_8 itemalign"><h1><em>RESTUARANT</em> <br><span style="color: #D9AD41;">"Green Valley "</span></h1>---The only thing we love more than food is you.!</div>  
+           
+            
+            <div class="clear"></div>
+        </header>
+        <nav>
+            <a href="index.html"> <div class="grid_3 menu-item borderleft-right">Home</div></a>
+            <a href="services.html"> <div class="grid_3 menu-item borderleft-right">Services</div></a>
+            <a href="about.html" > <div class="grid_3 menu-item borderleft-right">About</div></a>
+            <a href="#" > <div class="grid_3 menu-item borderleft-right">contact</div></a>
+            <div class="clear"></div>
+
+
+        </nav>
+        
+        <div class="gridbg" style="margin-bottom: 5px;">
+            <section id="conbanner" style="height: 600px;">
+                 
+
+                        <!-- Button for popup form of reservation -->
+        <button class="click-here" id="btnbook" onclick="openForm(),openForm1()">book a table</button>
+        <!-- <button class="" onclick="openForm()">Open Form</button> -->
+
+        <div class="form-popup" id="myForm">
+
+            <form class="form-container" >
+              <h2 style="text-align: left; margin-left: 40px;">Make a Reservation</h2>
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Enter Email" name="email" required>
+              <fieldset style="border-style:1px solid rgb(183, 231, 207)">
+                  <legend >Visit Time & Date</legend>
+              <input type="time"  name="time" required>
+              <input type="date"  name="date" required>
+            </fieldset>
+              <select type="text"  name="persons" required>
+                  <option>Number of persons</option>
+                  <option>1</option><option>2</option>
+                  <option>3</option><option>4+</option>
+              </select>
+        
+              <button type="submit" id="btntable" onclick="accept()" class="btntable">Reserve Table</button>
+              <button style="background-color: rgb(204, 44, 44);" type="button" class="btn cancel" onclick="closeForm(),closeForm1()">Close</button>
+            </form>
+          </div>
+                <div class="grid_12"><div class="ovalshape1" ><p style="font-size: 2em; font-style: italic; color:#fff" > </p><p style="font-style: normal ;  font-size: 3em; color:#fff; font-weight: bold;">Contact</p> </div><hr width="45%" class="hr" height="0.5px"/></div>
+                <div class="clear"></div>
+     
+                 
+            </section>
+        </div>
+        <section id="reviews" style="background-color: #EFEFEF;margin-top: 10px;">
+            <!-- <p class="testimony"style="font-size:4em; color: #C8A97F; ">Services </p> -->
+            <!-- <p style="font-size: 4em; z-index: 1; position: relative; top:-115px; text-transform: capitalize; "><b>Catering Services</b></p> -->
+            <!-- <div class="service"> -->
+    
+            
+            <div class="grid_6">
+                <div style="padding-top:10px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.1166136676025!2d73.83893391457784!3d18.523631687407253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f4daa097f%3A0xce339b60765d5009!2sFergusson%20College%20Rd%2C%20Shivajinagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1632661121917!5m2!1sen!2sin" width="450" height="500" class="mapframe" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+                
+            </div>
+            <div class="grid_6">
+            <div style="text-align: left;">
+                <h1 style=" color: #000">Contact Us.</h1>
+                <form>
+                    <input type="text"  placeholder="Name"><br>
+                    <input type="text" placeholder="Email"><br>
+                    <input type="text"  placeholder="Contact Number"><br>
+                    <label>Your Message</label>
+                    <textarea rows = "8" cols = "45" aria-placeholder="Your message">                        
+                    </textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
+            </div>
+            
+            
+            <div class="clear"></div>
+        <!-- </div> -->
+        </section> 
+        <div class="container_12"> 
+        <section>
+            
+              <div class="grid_4">
+            <div style="text-align: left;">
+                <h2>Contact Information.</h2>
+                
+            </div>
+
+           
+        </section>
+        </div>
+        <section id="reviews" style="background-color: #EFEFEF;margin-top: 10px;">
+            <!-- <p class="testimony"style="font-size:4em; color: #C8A97F; ">Services </p> -->
+            <!-- <p style="font-size: 4em; z-index: 1; position: relative; top:-115px; text-transform: capitalize; "><b>Catering Services</b></p> -->
+            <!-- <div class="service"> -->
+    
+            
+            <div class="grid_3">
+                <div class="alignleft">
+                   <h3 style="text-align: left;"> Locate us<br>Add: 198 West 2<sup>nd</sup> Street,<br> Suite 721 New York NY 10016</h3>
+
+                </div>
+                
+            </div>
+            <div class="grid_3">
+            <div class="alignleft">
+                <br><br><br><br>
+                <h3>Phone: + 1235 2355 98</h3>
+                
+            </div>
+            </div>
+            <div class="grid_3">
+                <br><br><br><br>
+                <h3 class="alignleft">Email: xyz@gmail.com</h3>
+            </div>
+            <div class="grid_3">
+                <br><br><br><br>
+                <h3 class="alignleft">Website: abc.com</h3>
+            </div>
+            
+            
+            <div class="clear"></div>
+        <!-- </div> -->
+        </section> 
+
+        
+
+       
+       
+                 
+        
+        <!-- <div class="lineheight">reach us</div> -->
+        <footer>
+            <div class="grid_4 alignleft"><h2>Locate us</h2>
+                <address class="alignleft">Lorem, ipsum dolor,
+                    <br>Lorem ipsum dolor sit amet.<br>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab obcaecati blanditiis vero quis molestias quidem non officia explicabo saepe fuga.
+                </address>
+                </div>
+            <div class="grid_4" style="position: relative; top: 5px;">
+                <h2 class="alignleft">&nbsp;&nbsp;Follow us on</h2>
+                <div class="centerleft">
+                <a href="https://www.instagram.com"   target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" ><i class="fa fa-youtube-play"></i></a>
+                <a href="https://twitter.com"  target="_blank"><i class="fa fa-twitter"></i></a>
+               <a href="http://in.youtube.com"  target="_blank"><i class="fa fa-youtube-play"></i> </a><br>
+                
+                
+                 <p style="font-size: smaller;">copyright &copy; 2021. All rights reserved.</p>
+                <p style="font-size: smaller;">Design and developed by Pramod kumbhar.</p>
+            </div>
+            </div>
+            <div class="grid_4">
+               <h2 class="aligncleft"> Opening Hours</h2>
+               <h3 class="alignleft">Monday-friday 8am to 10pm&nbsp;&nbsp;</h3>
+               <h3 class="alignleft">Saturaday-sunday 8am to 2pm</h3>
+                </div>
+            <div class="clear"></div>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<form class="form-container">
+    <h2 style="text-align: left; margin-left: 40px;">Make a Reservation</h2>
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <fieldset style="border-style:1px solid rgb(183, 231, 207)">
+        <legend>Visit Time & Date</legend>
+        <input type="time" name="time" required>
+        <input type="date" name="date" required>
+    </fieldset>
+    <select type="text" name="persons" required>
+        <option>Number of persons</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4+</option>
+    </select>
+
+    <button type="submit" id="btntable" onclick="accept()" class="btntable">Reserve Table</button>
+    <button type="button" class="btnclose" onclick="closeForm(),closeForm1()">Close</button>
+</form>
